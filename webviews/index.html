@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>数独求解工具 - 云开发</title>
+		<link rel="stylesheet" type="text/css" href="asset/index.css">
+		<script src="//imgcache.qq.com/qcloud/tcbjs/1.6.1/tcb.js"></script>
+    </head>
+    <body>
+		<div class="main">
+			<div class="title">数独求解工具 | 累计解决<span id="numbershow">0</span>次<span id="peopleshow">0</span>人</div>
+			<table border="0" align="center" cellspacing="1" cellpadding="1">
+			    <tbody id="model"></tbody>
+			</table>
+			<div class="btngroup">
+			    <button type="button" id="b1" onclick="clc()">清除</button>
+			    <button type="button" id="b2" onclick="get_answer()">数独求解</button>
+				<button type="button" id="b3" class="large" onclick="window.open('https://cloudbase.net')">了解云开发</button>
+			</div>
+		</div>
+		<script src="asset/cloud.js" type="text/javascript" charset="utf-8"></script>
+        <script src="asset/index.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
